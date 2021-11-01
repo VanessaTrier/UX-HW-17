@@ -1,0 +1,76 @@
+body {
+  background-color: #f9e8d9;
+}
+
+.navigation {
+  background-color: #cb6749;
+  vertical-align: top;
+  display: flex;
+  justify-content: space-around;
+}
+
+.background-image {
+  background-image: url(https://vanessatrier.com/wp-content/uploads/2021/10/Vanessa-Portfolio-Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-below-hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    width: 100%; 
+    float: right;
+    margin: 0;
+    padding: 15%;
+  }
+
+li {
+  display: inline;
+}
+
+.inline-block {
+  vertical-align: top;
+  width: 10%;
+  padding: 1%;
+}
+
+.logo {
+  float: left;
+  width: 23%;
+  padding: 1%;
+}
+
+
+footer {
+  background-color: #1C102D;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  bottom: 0;
+  display: inline-block; 
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+button {
+  background-color: #1c102d; 
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
